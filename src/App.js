@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
+import Counter from "./counter.js";
 function App() {
-
   return (
-    <div className="App">
-     hi
-    </div>
+    <>
+      <Counter />
+    </>
   );
 }
 
